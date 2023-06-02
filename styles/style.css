@@ -1,0 +1,89 @@
+:root {
+  --naranja: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+
+  --color-texto: hsla(0, 0%, 100%, 0.75);
+  --relleno-claro: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+
+body {
+  background-color: var(--relleno-claro);
+  height: 100vh;
+  min-height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* VER RESPONSIVIDAD */
+div.container {
+  height: auto;
+  border-radius: 1em;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+img.icono {
+  max-width: 4em;
+}
+
+h2.titulo__autos {
+  text-transform: uppercase;
+  color: var(--color-texto);
+}
+
+p.parrafo__del__div {
+  text-align: start;
+  color: var(--color-texto);
+}
+
+div.div__columna {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-left: 2em;
+  padding-right: 2em;
+  min-width: auto;
+  max-width: 16em;
+  height: 25em;
+  min-height: 33vh;
+}
+
+div.uno {
+  background-color: var(--naranja);
+}
+
+div.dos {
+  background-color: var(--cyan);
+}
+
+div.tres {
+  background-color: var(--dark-cyan);
+}
+
+button.btn {
+  background-color: var(--relleno-claro);
+  display: flex;
+  height: 2,5em;
+  width: 10em;
+  padding: 1em;
+  border-radius: 4em;
+  justify-content: center;
+  align-items: center;
+}
