@@ -83,6 +83,7 @@ button.btn {
   height: 2,5em;
   width: 10em;
   padding: 1em;
+  border: none;
   border-radius: 4em;
   justify-content: center;
   align-items: center;
